@@ -53,9 +53,9 @@ body {
 }
 #pass-show{
   position: absolute;
-  margin-top: 166px;
+  margin-top: 165px;
   font-size: 21px;
-  margin-left: 245px;
+  margin-left: 243px;
   padding: 4px;
   color: grey;
   transition: 0.5s;
@@ -64,9 +64,9 @@ body {
 }
 #pass-hide{
   position: absolute;
-  margin-top: 166px;
+  margin-top: 165px;
   font-size: 21px;
-  margin-left: 244px;
+  margin-left: 242px;
   color: grey;
   padding: 4px;
   transition: 0.5s;
