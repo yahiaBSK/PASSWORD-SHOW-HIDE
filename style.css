@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  background-color: white
+}
+.div{
+  background-color: white;
+  height: 400px;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  margin-top: 130px;
+  box-shadow:-5px -5px 30px rgba(0, 0, 0, 0.12), 5px 5px 30px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+}
+.div input{
+  margin-top: 160px;
+  width: 276px;
+  height: 35px;
+  font-size: 15px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 0 0 0 1.5px rgba(0, 0, 0, 0.30);
+  transition: 0.5s;
+}
+#submit{
+  margin-top: 14px;
+  width: 280px;
+  height: 36px;
+  color: grey;
+}
+.div input:focus{
+  box-shadow: 0 0 0 1.5px grey;
+}
+#login-icon{
+  position: absolute;
+  margin-top: 23px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.30);
+  transition: 0.5s;
+}
+#pass-icon{
+  position: absolute;
+  margin-top: 170px;
+  font-size: 20px;
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.30);
+  transition: 0.5s;
+}
+#pass-show{
+  position: absolute;
+  margin-top: 166px;
+  font-size: 21px;
+  margin-left: 245px;
+  padding: 4px;
+  color: grey;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+#pass-hide{
+  position: absolute;
+  margin-top: 166px;
+  font-size: 21px;
+  margin-left: 244px;
+  color: grey;
+  padding: 4px;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
